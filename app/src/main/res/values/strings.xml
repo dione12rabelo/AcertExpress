@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AcertExpress</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_principal_contrib"></string>
+    <string name="title_activity_contribuintes"></string>
+    <string name="title_activity_add_contribuintes"></string>
+    <string name="title_activity_contribuintes_status_rec"></string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

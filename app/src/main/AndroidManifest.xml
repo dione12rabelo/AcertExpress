@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.org.grupolutapelavida.acertexpress">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/express_gg"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Entrar"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PrincipalContrib"
+            android:label="@string/title_activity_principal_contrib"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Contribuintes"
+            android:label="@string/title_activity_contribuintes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddContribuintes"
+            android:label="@string/title_activity_add_contribuintes"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".ContribuintesStatusRec"
+            android:label="@string/title_activity_contribuintes_status_rec"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
